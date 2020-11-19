@@ -4,8 +4,7 @@ Fortunately the creators, Shi Zhengshan and Craig Stuart Sapp and the other cont
 
 Acquire the SUPRA zip (from e.g. https://stacks.stanford.edu/file/druid:xf457dx9166/supra-rw-mp3.zip) of all the available supra  mp3 renditions and unzip the mp3's into directory "supra-rw-mp3."
 
-The individual mp3's will have unhelpful names like bb988jx6754.mp3 and will have no useful metadata.  The purpose of this program is to get the MARCXM\
-L file from github.com/pianoroll/SUPRA associated with each mp3 and retrieve information to set an appropriate filename for each mp3 and add metadata tags for  artist, title, year , date and composer.
+The individual mp3's will have unhelpful names like bb988jx6754.mp3 and will have no useful metadata.  The purpose of this program is to get the MARCXML file from github.com/pianoroll/SUPRA associated with each mp3 and retrieve information to set an appropriate filename for each mp3 and add metadata tags for  artist, title, year , date and composer.
 
 This shell program, supra.sh, running under Linux, attempts to find a MARCXML describing each mp3 at https://github.com/pianoroll/SUPRA/tree/master/metadata/marcxml. See https://www.loc.gov/marc/concise/
 

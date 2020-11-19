@@ -48,7 +48,7 @@ cleanem (){
     vv=${vv/\&amp/and};
 }
 
-date >> "../$$.log"; 
+date > "$$.log"; 
 
 while getopts 'ph' c
 do
